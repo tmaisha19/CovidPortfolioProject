@@ -1,6 +1,5 @@
 --SELECT *
 --FROM PortfolioProject..CovidDeaths
---where continent is not null
 --order by 3,4
 
 --SELECT *
@@ -142,7 +141,6 @@ where dea.continent is not null
 SELECT * 
 FROM sys.views 
 WHERE name = 'VaccinatedPopulationView';
-
 Select *
 FROM VaccinatedPopulationView;
 
